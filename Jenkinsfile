@@ -3,7 +3,7 @@
 
     environment {
         AWS_REGION = "us-east-1"
-        ECR_REPO = "order-task-service"
+        ECR_REPO = "order-service"
         ECS_CLUSTER = "dev5_cluster"
         ECS_SERVICE = order-service-task-service-eolfoz2e"
         IMAGE_TAG = "${BUILD_NUMBER}"
