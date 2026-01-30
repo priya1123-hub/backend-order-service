@@ -4,8 +4,8 @@
     environment {
         AWS_REGION = "us-east-1"
         ECR_REPO = "order-service"
-        ECS_CLUSTER = "dev5_cluster"
-        ECS_SERVICE = "order-service-task-service-eolfoz2e"
+        ECS_CLUSTER = "Priya_Cluster"
+        ECS_SERVICE = "order-service-task-service-b82vcgxh"
         IMAGE_TAG = "${BUILD_NUMBER}"
         AWS_ACCOUNT_ID = "494676063663"
         ECR_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
