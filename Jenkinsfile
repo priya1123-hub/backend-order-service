@@ -7,7 +7,7 @@
         ECS_CLUSTER = "Priya_Cluster"
         ECS_SERVICE = "order-service-task-service-b82vcgxh"
         IMAGE_TAG = "${BUILD_NUMBER}"
-        AWS_ACCOUNT_ID = "494676063663"
+        AWS_ACCOUNT_ID = "217797467416"
         ECR_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
     }
 
